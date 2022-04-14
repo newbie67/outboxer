@@ -11,8 +11,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/request"
 	sqsraw "github.com/aws/aws-sdk-go/service/sqs"
 	"github.com/aws/aws-sdk-go/service/sqs/sqsiface"
-	"github.com/italolelis/outboxer"
-	"github.com/italolelis/outboxer/es/sqs"
+	"gitlab.b2bdev.pro/backend/go-packages/outboxer-lib/es/sqs"
 )
 
 type mockedSQS struct {

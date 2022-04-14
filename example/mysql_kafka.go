@@ -7,9 +7,8 @@ import (
 	"github.com/Shopify/sarama"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/google/uuid"
-	"github.com/italolelis/outboxer"
-	"github.com/italolelis/outboxer/es/kafka"
-	"github.com/italolelis/outboxer/storage/mysql"
+	"gitlab.b2bdev.pro/backend/go-packages/outboxer-lib/es/kafka"
+	"gitlab.b2bdev.pro/backend/go-packages/outboxer-lib/storage/mysql"
 	"time"
 )
 

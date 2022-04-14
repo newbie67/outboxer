@@ -6,8 +6,7 @@ import (
 
 	pubsubraw "cloud.google.com/go/pubsub"
 	"cloud.google.com/go/pubsub/pstest"
-	"github.com/italolelis/outboxer"
-	"github.com/italolelis/outboxer/es/pubsub"
+	"gitlab.b2bdev.pro/backend/go-packages/outboxer-lib/es/pubsub"
 	"google.golang.org/api/option"
 	"google.golang.org/grpc"
 )

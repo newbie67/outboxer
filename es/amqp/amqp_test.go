@@ -7,9 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/italolelis/outboxer"
-	"github.com/italolelis/outboxer/es/amqp"
-	amqpraw "github.com/rabbitmq/amqp091-go"
+	"gitlab.b2bdev.pro/backend/go-packages/outboxer-lib"
+	"gitlab.b2bdev.pro/backend/go-packages/outboxer-lib/es/amqp"
 )
 
 func TestAMQP_EventStream(t *testing.T) {

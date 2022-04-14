@@ -1,4 +1,4 @@
-module github.com/italolelis/outboxer
+module gitlab.b2bdev.pro/backend/go-packages/outboxer-lib
 
 require (
 	cloud.google.com/go/pubsub v1.19.0

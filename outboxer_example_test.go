@@ -7,10 +7,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/italolelis/outboxer"
-	amqpOut "github.com/italolelis/outboxer/es/amqp"
-	"github.com/italolelis/outboxer/storage/postgres"
-	amqp "github.com/rabbitmq/amqp091-go"
+	"gitlab.b2bdev.pro/backend/go-packages/outboxer-lib"
+	amqpOut "gitlab.b2bdev.pro/backend/go-packages/outboxer-lib/es/amqp"
+	"gitlab.b2bdev.pro/backend/go-packages/outboxer-lib/storage/postgres"
 )
 
 // nolint

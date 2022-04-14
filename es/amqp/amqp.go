@@ -5,8 +5,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/italolelis/outboxer"
-	amqp "github.com/rabbitmq/amqp091-go"
+	"gitlab.b2bdev.pro/backend/go-packages/outboxer-lib"
 )
 
 const (

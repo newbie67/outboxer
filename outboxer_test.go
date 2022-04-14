@@ -7,8 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/italolelis/outboxer"
-	amqpOut "github.com/italolelis/outboxer/es/amqp"
+	amqpOut "gitlab.b2bdev.pro/backend/go-packages/outboxer-lib/es/amqp"
 )
 
 type inMemDS struct {

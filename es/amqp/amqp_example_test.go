@@ -5,9 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/italolelis/outboxer"
-	amqpOut "github.com/italolelis/outboxer/es/amqp"
-	amqp "github.com/rabbitmq/amqp091-go"
+	"gitlab.b2bdev.pro/backend/go-packages/outboxer-lib"
+	amqpOut "gitlab.b2bdev.pro/backend/go-packages/outboxer-lib/es/amqp"
 )
 
 func ExampleNewAMQP() {

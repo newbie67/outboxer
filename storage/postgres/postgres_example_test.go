@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/italolelis/outboxer/storage/postgres"
+	"gitlab.b2bdev.pro/backend/go-packages/outboxer-lib/storage/postgres"
 )
 
 func ExamplePostgres() {

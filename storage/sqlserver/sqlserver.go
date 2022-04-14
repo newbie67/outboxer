@@ -5,8 +5,7 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
-	"github.com/italolelis/outboxer"
-	"github.com/italolelis/outboxer/lock"
+	"gitlab.b2bdev.pro/backend/go-packages/outboxer-lib/lock"
 )
 
 const (

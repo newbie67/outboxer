@@ -9,7 +9,6 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	"github.com/italolelis/outboxer"
 )
 
 var errInvalidProducerConfig = errors.New("invalid kafka producer config")

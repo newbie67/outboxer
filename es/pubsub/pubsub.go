@@ -5,7 +5,6 @@ import (
 	"context"
 
 	"cloud.google.com/go/pubsub"
-	"github.com/italolelis/outboxer"
 )
 
 const (

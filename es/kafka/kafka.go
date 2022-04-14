@@ -6,7 +6,6 @@ import (
 	"fmt"
 
 	"github.com/Shopify/sarama"
-	"github.com/italolelis/outboxer"
 )
 
 var (

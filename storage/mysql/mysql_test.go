@@ -7,8 +7,7 @@ import (
 	"time"
 
 	sqlmock "github.com/DATA-DOG/go-sqlmock"
-	"github.com/italolelis/outboxer"
-	"github.com/italolelis/outboxer/lock"
+	"gitlab.b2bdev.pro/backend/go-packages/outboxer-lib/lock"
 )
 
 var eventStoreRows = []string{"id", "dispatched", "dispatched_at", "payload", "options", "headers"}

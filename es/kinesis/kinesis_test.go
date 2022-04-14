@@ -8,8 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/request"
 	kinesisraw "github.com/aws/aws-sdk-go/service/kinesis"
 	"github.com/aws/aws-sdk-go/service/kinesis/kinesisiface"
-	"github.com/italolelis/outboxer"
-	"github.com/italolelis/outboxer/es/kinesis"
+	"gitlab.b2bdev.pro/backend/go-packages/outboxer-lib/es/kinesis"
 )
 
 // Define a mock struct to be used in your unit tests of myFunc.
