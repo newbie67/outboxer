@@ -32,7 +32,7 @@ defer cancel()
 
 db, err := sql.Open("postgres", os.Getenv("DS_DSN"))
 if err != nil {
-    fmt.Printf("could not connect to amqp: %s", err)
+    fmt.Printf("could not connect to postgres: %s", err)
     return
 }
 
@@ -58,8 +58,6 @@ o, err := outboxer.New(
     outboxer.WithDataStore(ds),
     outboxer.WithEventStream(es),
     outboxer.WithCheckInterval(1*time.Second),
-    outboxer.WithCleanupInterval(5*time.Second),
-    outboxer.WithCleanUpBefore(time.Now().AddDate(0, 0, -5)),
 )
 if err != nil {
     fmt.Printf("could not create an outboxer instance: %s", err)
@@ -111,6 +109,7 @@ Outboxer comes with a few implementations of Data Stores and Event Streams.
 - [Kinesis EventStream](es/kinesis/)
 - [SQS EventStream](es/sqs/)
 - [GCP PubSub](es/pubsub/)
+- [Kafka EventStream](es/kafka/)
 
 ## Contributing
 
